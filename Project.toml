@@ -1,10 +1,14 @@
 name = "RoboticsODE"
 uuid = "b85f8785-7132-4ed4-80d8-2ae389bda024"
+authors = ["Olga Perl <ovkalyonova@itmo.ru>"]
 version = "0.1.0"
 
 [deps]
 DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+TORA = "a6da6c0f-f153-4ec6-bf42-6dc0ab733f84"
+Sundials = "c3572dad-4567-51f8-b174-8c6c989267f4"
 
 [compat]
+TORA = "0.2.0"
 julia = "1.9"
